@@ -19,6 +19,7 @@ module.exports = {
   siteMetadata: {
     title: '',
     description: 'web development portfolio',
-    copyright: '© 2021 Stephen Tamiesie'
+    copyright: '© 2021 Stephen Tamiesie',
+    contact: 'stephen.tamiesie@gmail.com'
   }
 }
