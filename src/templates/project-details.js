@@ -6,11 +6,11 @@ import { getImage, GatsbyImage } from 'gatsby-plugin-image'
 
 export default function ProjectDetails({ data }) {
     const { html } = data.markdownRemark
-    const { title, stack} = data.markdownRemark.frontmatter
+    const { title, stack } = data.markdownRemark.frontmatter
     const featuredImg = getImage(data.markdownRemark.frontmatter.featuredImg.childImageSharp.gatsbyImageData)
 
     return (
-        <>
+        
         <Layout>
         <div className={styles.details}>
             <h2>{title}</h2> 
@@ -21,7 +21,7 @@ export default function ProjectDetails({ data }) {
             <div className={styles.html} dangerouslySetInnerHTML={ {__html: html }} />
         </div>
         </Layout>
-        </>
+        
     )
 }
 
