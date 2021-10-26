@@ -58,6 +58,7 @@ footer {
   padding: 5px;
   color: black;
 }
+
 .githubLogo {
   height: 30px;
   padding: 5px;
@@ -70,13 +71,10 @@ footer {
   color: black;
 }
 
-.content {
-  /* height: 60vh; */
-}
-/* a {
+a {
   border-bottom: 1px solid transparent;
 }
 
 a:hover {
-  border-color: white;
-} */
+  border-color: black;
+}
