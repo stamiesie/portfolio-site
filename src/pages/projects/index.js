@@ -12,11 +12,11 @@ export default function Projects({ data }) {
     return (
         <Layout>
             <div className={styles.portfolio}>
-                <h2>Portfolio</h2>
-                <h3>Projects I've Created</h3>
+                <h2>Projects</h2>
+                <h3>Made with love. And code. </h3>
                 <div className={styles.projects}>
                     {projects.map(project => (
-                        <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
+                        <Link className={styles.project_card} to={"/projects/" + project.frontmatter.slug} key={project.id}>
                             <div>
                                 <GatsbyImage image={getImage(project.frontmatter.thumbnail.childImageSharp.gatsbyImageData)} 
                                 alt="Banner" />

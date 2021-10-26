@@ -1,10 +1,14 @@
 ---
 title: Greeting Art
-stack: React, Amazon S3 - list other things here...
+stack: React • P5.js • SendGrid • Material UI
 slug: greeting-art
 date: 2021-06-15T00:00:00+00:00
 thumbnail: ../images/thumbs/greeting_art_500.png
-featuredImg: ../images/thumbs/greeting_art_500.png
+featuredImg: ../images/featured/greeting_art_detail_3.png
 ---
 
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**[Site](https://greeting-art.netlify.app/)** || **[Github](https://github.com/Greeting-Art)**
+
+*Full stack project • 4 member team • 5 day remote sprint*
+
+Greeting Art combines a fun random art generator and gallery with an e-greeting card service in one easy-to-use app.  Using the P5.js library, I helped implement the creation of algorithmic artwork by building randomizing functions that altered the sizes, shapes and colors on the canvas element.  To display art in the app's gallery feature, I pair-programmed the connection of an AWS S3 bucket with the front-end using POST and GET routes.

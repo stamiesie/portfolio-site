@@ -1,10 +1,14 @@
 ---
 title: Ambience Bot
-stack: React, Amazon S3 - list other things here...
+stack: Node.js • Discord.js
 slug: ambience-bot
-date: 2021-04-30T00:00:00+00:00
+date: 2021-01-30T00:00:00+00:00
 thumbnail: ../images/thumbs/ambience_bot_500.png
 featuredImg: ../images/featured/ambience_bot_detail.png
 ---
 
-**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**[Site](https://ambience-bot.netlify.app/)** || **[Github](https://github.com/ambience-bot)**
+
+*Back-end project • 4 member team • 5 day remote sprint*
+
+Ambience Bot is a discord bot that allows users to stream ambient sounds directly to a discord voice channel.  The bot is controlled with command functions that fetch audio from YouTube and stream to Discord using the YTDL module.  I contributed to this project by helping code the implementation of the YouTube API call with the user's search query to return an audio stream to Discord.  Additionally, I build a stop function command allowing the bot to cease playing audio.  

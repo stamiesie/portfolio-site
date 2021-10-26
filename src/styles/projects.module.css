@@ -16,12 +16,20 @@
     grid-gap: 80px;
     margin: 80px 20px;
   }
+
+  .project_card {
+    border-bottom: 1px solid transparent;
+  }
+
+  .project_card:hover {
+    border-color: black;
+  }
   .projects h3 {
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
   }
   .projects p {
-    color: #ccc;
+    color: rgb(121, 121, 121);
     margin-top: 4px;
   }

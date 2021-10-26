@@ -5,13 +5,15 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: white;
+  color: black
 }
 html, body {
   min-height: 100%;
 }
 body {
-  background: radial-gradient(at top left, rgba(146,43,225,1) 0%, rgba(43,9,107,1) 100%);
+  background: radial-gradient(at top left, rgba(172, 210, 216, 1) -30%, rgba(249, 243, 241, 1) 60%);
+  /* background: #F9F3F1; */
+  /* background: #292F3D; */
   background-repeat: no-repeat;
 }
 p {
@@ -38,13 +40,21 @@ nav a {
   margin-left: 20px;
   font-weight: 400;
   padding-bottom: 8px;
-  border-bottom: 3px solid transparent;
+  border-bottom: 1px solid transparent;
 }
 nav a:hover {
-  border-color: white;
+  border-color: black;
 }
 footer {
   text-align: center;
   color: #bbb;
   margin: 40px auto;
 }
+
+/* a {
+  border-bottom: 1px solid transparent;
+}
+
+a:hover {
+  border-color: white;
+} */
