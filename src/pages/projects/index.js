@@ -7,8 +7,7 @@ import { GatsbyImage, getImage } from "gatsby-plugin-image"
 export default function Projects({ data }) {
     console.log(data)
     const projects = data.projects.nodes
-    // const contact = data.contact.siteMetadata.contact
-
+    
     return (
         <Layout>
             <div className={styles.portfolio}>
@@ -19,7 +18,7 @@ export default function Projects({ data }) {
                         <Link className={styles.project_card} to={"/projects/" + project.frontmatter.slug} key={project.id}>
                             <div>
                                 <GatsbyImage image={getImage(project.frontmatter.thumbnail.childImageSharp.gatsbyImageData)} 
-                                alt="Banner" />
+                                alt="Banner" className={styles.thumbnail}/>
                                 <h3>{ project.frontmatter.title }</h3>
                                 <p>{ project.frontmatter.stack }</p>
                             </div>

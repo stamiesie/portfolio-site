@@ -6,10 +6,19 @@
     font-size: 2em;
     font-weight: 400;
     margin-bottom: 40px;
+    color: rgb(121, 121, 121);
   }
   .html {
     margin-top: 40px;
   }
   .featured {
     margin-bottom: 40px;
+  }
+
+  .featuredImage {
+    border-radius: 30px;
+  }
+
+  .gatsby-image-wrapper picture img {
+    border-radius: 30px;
   }

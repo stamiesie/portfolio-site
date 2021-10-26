@@ -16,7 +16,7 @@ export default function ProjectDetails({ data }) {
             <h2>{title}</h2> 
             <h3>{stack}</h3>
             <div className={styles.featured}>
-            <GatsbyImage image={featuredImg} alt="Banner" />
+            <GatsbyImage image={featuredImg} alt="Banner" className={styles.featuredImage} />
             </div>
             <div className={styles.html} dangerouslySetInnerHTML={ {__html: html }} />
         </div>
