@@ -10,11 +10,13 @@
     font-size: 4em;
     color: #172850;
   }
+  
   .header h3 {
     font-size: 3em;
     font-weight: 400;
     margin-bottom: 20px;
   }
+
   .btn {
     display: inline-block;
     background: #fa676c;
@@ -23,6 +25,7 @@
     margin-top: 20px;
     font-weight: 500;
   }
+
   .btn:hover {
     color: white;
     border-bottom: 1px solid transparent;

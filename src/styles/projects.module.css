@@ -1,11 +1,13 @@
 .portfolio {
     text-align: center;
   }
+
   .portfolio > h2 {
     font-size: 3em;
     margin-top: 80px;
     color: #172850;
   }
+
   .portfolio > h3 {
     font-size: 2em;
     font-weight: 400;
@@ -26,11 +28,13 @@
   .project_card:hover {
     border-color: black;
   }
+  
   .projects h3 {
     text-align: center;
     margin: 20px auto 0px;
     font-weight: 500;
   }
+
   .projects p {
     color: rgb(121, 121, 121);
     margin-top: 4px;
