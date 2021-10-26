@@ -1,16 +1,20 @@
 .details h2 {
-    font-size: 3.5em;
+    font-size: 3em;
     margin-top: 80px;
+    color: #172850;
   }
-  .details h3 {
+
+.details h3 {
     font-size: 2em;
     font-weight: 400;
     margin-bottom: 40px;
     color: rgb(121, 121, 121);
   }
+
   .html {
     margin-top: 40px;
   }
+
   .featured {
     margin-bottom: 40px;
   }
