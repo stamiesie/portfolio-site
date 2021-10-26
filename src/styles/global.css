@@ -49,8 +49,25 @@ nav a:hover {
 }
 footer {
   text-align: center;
-  color: rgb(121, 121, 121);
+  color: black;
   margin: 40px auto;
+}
+
+.linkedInLogo {
+  height: 28px;
+  padding: 5px;
+  color: black;
+}
+.githubLogo {
+  height: 30px;
+  padding: 5px;
+  color: black;
+}
+
+.mail {
+  height: 30px;
+  padding: 5px;
+  color: black;
 }
 
 .content {
