@@ -3,8 +3,9 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 40px;
     align-items: center;
-    /* margin-bottom: 160px; */
+    padding-bottom: 100px;
   }
+  
   .header h2 {
     font-size: 4em;
     color: #172850;

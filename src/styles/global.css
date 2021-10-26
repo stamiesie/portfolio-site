@@ -53,6 +53,9 @@ footer {
   margin: 40px auto;
 }
 
+.content {
+  /* height: 60vh; */
+}
 /* a {
   border-bottom: 1px solid transparent;
 }
