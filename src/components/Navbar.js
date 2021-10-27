@@ -1,5 +1,6 @@
-import { Link, graphql, useStaticQuery } from 'gatsby'
 import React from 'react'
+import { Link, graphql, useStaticQuery } from 'gatsby'
+import resume from '../../static/resume.pdf'
 
 export default function Navbar() {
     const data = useStaticQuery(graphql`
@@ -22,7 +23,7 @@ export default function Navbar() {
                <Link to="/">Home</Link>
                <Link to="/about">About</Link>
                <Link to="/projects">Projects</Link>
-               <Link href="/resume.pdf">Resume</Link>
+               <Link href={resume}>Resume</Link>
 
            </div>
        </nav>
