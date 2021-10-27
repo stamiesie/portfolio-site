@@ -29,12 +29,14 @@ p {
 
 nav {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 40px auto;
 }
 
 nav .links {
   display: inline-block;
+  /* position:fixed;
+  right: 0px; */
   text-align: right;
 }
 
