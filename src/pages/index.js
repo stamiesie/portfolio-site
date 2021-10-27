@@ -10,7 +10,7 @@ export default function Home() {
         <div>
           <h2>Stephen Tamiesie</h2>
           <h3>Software Engineer</h3>
-          <p>Dedicated to finding meaningful solutions using code.</p>
+          <p>Dedicated to building meaningful solutions using code.</p>
           <Link className={styles.btn} to="/projects">Check out some projects</Link>
         </div>
       </section>
