@@ -9,7 +9,7 @@ export default function About() {
                 <h2 className={styles.header}>About</h2>
                 <p>Hello!  I'm an early career software engineer that is passionate about modern web development, outdoor adventures and my cat named Tuna.  Once I let Tuna outside and he came home 11 months later (no joke). I'm convinced he snuck into a time machine...</p>
                 
-                <p>Before becoming a software engineer I was professional photographer, where I enjoyed taking concepts and turning them into creative assignments for clients.  This eventually let me to software development, where I still get to build and create fun stuff from scratch everyday.</p>
+                <p>Before becoming a software engineer I was professional photographer, where I enjoyed taking concepts and turning them into creative assignments for clients.  This eventually let me to software development, where I still get to create and build fun stuff from scratch everyday.</p>
 
                 <p>I'm an AWS Certified Developer Associate and while I love the cloud, my heart lies in the front end.  I'm currently exploring the Jamstack (I built this site with Gatsby) and continuing to hone my React skills.     
                 </p>

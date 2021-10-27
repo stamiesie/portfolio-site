@@ -17,6 +17,10 @@
     margin-bottom: 20px;
   }
 
+  .header p {
+    color: rgb(121, 121, 121);
+  }
+
   .btn {
     display: inline-block;
     background: #fa676c;
