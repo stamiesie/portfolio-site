@@ -1,8 +1,8 @@
 import React from 'react'
 import Navbar from './Navbar'
-import linkedIn from '../../public/linkedin.png'
-import gitHub from '../../public/github.png'
-import mail from '../../public/mail.png'
+import linkedIn from '../images/icons/linkedin.png'
+import gitHub from '../images/icons/github.png'
+import mail from '../images/icons/mail.png'
 import '../styles/global.css'
 
 export default function Layout({ children }) {
