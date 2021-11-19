@@ -39,7 +39,7 @@ module.exports = {
     titleTemplate: '%s • Software Engineer',
     description:
       "Welcome to my portfolio site. I'm passionate about using technology to solve human centered problems.",
-    url: 'https://www.stephen-tamiesie.com/',
+    url: 'https://www.stephen-tamiesie.com',
     image: '/stephen_tamiesie_portfolio_site.png',
     copyright: '© 2021 Stephen Tamiesie',
     contact: 'stephen.tamiesie@gmail.com',
