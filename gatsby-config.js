@@ -1,11 +1,4 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.com/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
   plugins: [
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-remark',
@@ -27,13 +20,6 @@ module.exports = {
       },
     },
   ],
-  // siteMetadata: {
-  //   title: 'Stephen Tamiesie, Software Engineer',
-  //   titleTemplate: '%s • Software Engineer',
-  //   description:
-  //     "Welcome to my portfolio site. I'm passionate about using technology to solve human centered problems.",
-  //   url: 'https://www.stephen-tamiesie.com/',
-  //   image: '/stephen_tamiesie_portfolio_site.png',
   siteMetadata: {
     title: 'Stephen Tamiesie',
     titleTemplate: '%s • Software Engineer',
