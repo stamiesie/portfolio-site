@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  Welcome to my porfolio site!
+  Welcome to my portfolio site!
 </h1>
 
 <h3 align="center">
