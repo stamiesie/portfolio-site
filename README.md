@@ -8,6 +8,6 @@
 </h1>
 
 <h3 align="center">
-  I built this site using Gatsby, React, GraphQL, Javascript and CSS
+  I built this site using Gatsby, React, GraphQL, JavaScript and CSS.
 </h3>
 
