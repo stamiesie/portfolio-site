@@ -30,9 +30,9 @@ export default function About() {
         </p>
 
         <p>
-          Have an extra ticket to the Blazers game? Want to talk about medium
-          format film cameras? Think I'd be a good fit for your team? Let's
-          connect!
+          Have an extra ticket to the Trail Blazers game? Want to talk about
+          medium format film cameras? Think I'd be a good fit for your team?
+          Let's connect!
         </p>
       </div>
     </Layout>
