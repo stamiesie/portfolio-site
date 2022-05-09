@@ -19,6 +19,21 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    {
+      resolve: 'gatsby-plugin-newrelic',
+      options: {
+        config: {
+          instrumentationType: 'proAndSPA',
+          accountId: '3457403',
+          trustKey: '3457403',
+          agentID: '1588672709',
+          licenseKey: 'NRJS-8fb06d35994c354e36a',
+          applicationID: '1588672709',
+          beacon: 'bam.nr-data.net',
+          errorBeacon: 'bam.nr-data.net',
+        },
+      },
+    },
   ],
   siteMetadata: {
     title: 'Stephen Tamiesie',
